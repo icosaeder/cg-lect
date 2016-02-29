@@ -218,7 +218,7 @@ bool initOpenGL()
     // Initialize OpenGL context with.
     glfwMakeContextCurrent(g_window);
 
-    // Set internal GLEW variable to sctivate OpenGL core profile.
+    // Set internal GLEW variable to activate OpenGL core profile.
     glewExperimental = true;
 
     // Initialize GLEW functions.
@@ -254,7 +254,7 @@ int main()
 
     if (isOk)
     {
-        // Main loop until window closed or excape pressed.
+        // Main loop until window closed or escape pressed.
         while (glfwGetKey(g_window, GLFW_KEY_ESCAPE) != GLFW_PRESS && glfwWindowShouldClose(g_window) == 0)
         {
             // Draw scene.
