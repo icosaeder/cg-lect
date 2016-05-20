@@ -1,0 +1,2 @@
+all:
+	g++ main.cpp -framework OpenGL -lGLEW -lglfw3 -I/usr/local/Cellar/glew/1.11.0/include/ -I/usr/local/Cellar/glfw3/3.1.2/include/ -L/usr/local/Cellar/glew/1.11.0/lib/ -L/usr/local/Cellar/glfw3/3.1.2/lib/ -o main.app
